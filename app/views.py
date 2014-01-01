@@ -8,9 +8,11 @@ def index(request):
     user = users.get_current_user()
     if user:
         greetings = ('welcome, %s!' % (user.nickname()))
+        link = "Logout"
         href = users.create_logout_url('/')
     else:
         greetings = ('You must LOGIN first!')
         href = users.create_login_url('/')
+        link = "Login"
 
-    return render(request, 'index.html', {'title' : 'hackathon' , 'greetings' : greetings , 'href' : href})
+    return render(request, 'index.html', {'title' : 'hackathon' , 'greetings' : greetings , 'href' : href , 'link' : link})
