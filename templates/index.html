@@ -1,17 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.1/leaflet.css" />
-    <script src="http://cdn.leafletjs.com/leaflet-0.7.1/leaflet.js"></script>
-    
+  <head>
+    <link rel="stylesheet" href="/home/static/css/index.css"/>
     <title>{% block title %}{{ title }}{% endblock %}</title>
-</head>
-
-<body>
-  {% block content %}
-  <h1>{{ title }}</h1>
-  <p>{{ greetings }}</p>
-  <a href={{ href }}>{{ link }}</a>
-  {% endblock %}
-</body>
+  </head>
+  
+  <body>
+    {% block content %}
+    <h1>{{ title }}</h1>
+    <p>{{ greetings }}</p>
+    <a href={{ href }}>{{ link }}</a>
+    {% endblock %}
+  </body>
 </html>
