@@ -6,10 +6,9 @@ Aim of this project is to create a WEB app which can track the location
 of the students of IIIT-Delhi so that they can actually see where their
 FRIENDS are.
 
-It works on a script which have the location of all the WI-FI routers
-and which actually can find the nearest wifi router of the student.
-This leads to the approximate positioning without using wifi.
-The sole requirement is that the target must be connected to wifi.
 
-It can be further improved by introducing triangulation which could 
-lead to better approximation. 
+It works by using Google Maps API along with geolocation feature of the 
+browser. This way students can use it on their mobiles phones as well on 
+their laptops leaving the positioning to the GOOGLE.
+Now we can actually tell where a person is in the real time.
+
