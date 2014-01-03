@@ -27,3 +27,13 @@ Now you are ready to run development web server::
 This is the local server that runs on port 8080 (use ``--port`` option to 
 change this). Open a web browser and go to http://localhost:8080.
 
+
+Further Development
+===================
+
+Instead of using Google maps API, it will be better to use leatlet.js library.
+Integrating it in Django environment would be a nice add-on.
+User specific views and templates is what we lack which really needs to be
+done.
+
+
