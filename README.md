@@ -31,7 +31,7 @@ change this). Open a web browser and go to http://localhost:8080.
 Further Development
 ===================
 
-Instead of using Google maps API, it will be better to use leatlet.js library.
+Instead of using Google maps API, it will be better to use leaflet.js library.
 Integrating it in Django environment would be a nice add-on.
 User specific views and templates is what we lack which really needs to be
 done.
