@@ -11,7 +11,7 @@ def index(request):
     user.email = user_function.email()
     user.user_id = int(user_function.user_id())
     user.username = user_function.nickname()
-    user_key = user.put()
+    #user_key = user.put()
     if user:
         greetings = ('welcome, %s!' % (user.username))
         link = "Logout"
